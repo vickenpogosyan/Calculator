@@ -55,7 +55,7 @@ button:hover {
 }
 
 button:active {
-    background-color: orange
+    background-color: orange;
 }
 
 .large-btn {
