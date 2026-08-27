@@ -23,6 +23,7 @@ body {
 #display {
     width: 100%;
     border: none;
+    outline: none;
     background-color: rgb(50, 45, 45);
     color: white;
     padding: 15px;
