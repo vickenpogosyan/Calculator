@@ -15,20 +15,21 @@ body {
 #calculator {
     border-radius: 20px;
     background-color: rgb(30, 25, 25);
-    width: 450px;
+    width: 425px;
     max-width: 90vw;    /* for smaller screens */
     overflow: hidden;
 }
 
 #display {
     width: 100%;
-    border: none;
+    border: 20px solid rgb(30, 25, 25);
+    border-bottom: 0;
     outline: none;
     background-color: rgb(50, 45, 45);
-    color: white;
-    padding: 15px;
+    color: whitesmoke;
+    padding: 10px 20px;
     font-size: 60px;
-    text-align: left;
+    text-align: right;
 }
 
 #buttons {
@@ -40,10 +41,10 @@ body {
 
 button {
     width: 100%;
-    height: 75px;
+    height: 70px;
     border: none;
     border-radius: 40px;
-    background-color: rgb(195, 125, 0);
+    background-color: rgb(180, 115, 0);
     color: black;
     font-weight: bold;
     font-size: 25px;
@@ -51,11 +52,12 @@ button {
 }
 
 button:hover {
-    background-color: rgb(225, 145, 0);
+    background-color: rgb(200, 130, 0);
 }
 
 button:active {
-    background-color: orange;
+    background-color: rgb(220, 145, 0);
+    transform: translateY(1px);
 }
 
 .large-btn {
