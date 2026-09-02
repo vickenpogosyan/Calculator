@@ -13,7 +13,7 @@ body {
 }
 
 #calculator {
-    border-radius: 20px;
+    border-radius: 17.5px;
     background-color: rgb(30, 25, 25);
     width: 425px;
     max-width: 90vw;    /* for smaller screens */
@@ -43,7 +43,7 @@ button {
     width: 100%;
     height: 70px;
     border: none;
-    border-radius: 40px;
+    border-radius: 30px;
     background-color: rgb(180, 115, 0);
     color: black;
     font-weight: bold;
